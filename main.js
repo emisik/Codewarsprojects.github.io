@@ -7,4 +7,12 @@ function century(year) {
 
   return newCentury;
 }
-console.log(century(1705));
+
+//If you can't sleep, just count sheep!!
+var countSheep = function (num) {
+  let empty = " ";
+  for (let i = 1; i <= num; i++) {
+    empty += `${i}sheep...`;
+  }
+  return empty;
+};
